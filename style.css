@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-top {
+    background-color: #204d24;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.header-top p, .header-top a {
+    margin: 0;
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.header-main {
+    background-color: #336633;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-main h1 {
+    margin: 0;
+}
+
+.header-main .blog-description {
+    margin: 5px 0 0 0;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+nav {
+    background-color: #336633;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    margin: 20px 0;
+}
+
+main {
+    flex: 3;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #204d24;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a, .footer-updates a {
+    color: white;
+    text-decoration: underline;
+}
+
+article {
+    margin-bottom: 20px;
+    
+}
+
+article h2, article h3 {
+    color: #204d24;
+}
+
+.meta {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.meta a {
+    color: #204d24;
+    text-decoration: none;
+}
+
+aside section h2 {
+    color: #204d24;
+}
+
+aside section ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside section ul li {
+    margin-bottom: 10px;
+}
+
+aside section ul li a {
+    color: #204d24;
+    text-decoration: none;
+}
+
+aside section ul li a:hover {
+    text-decoration: underline;
+}
